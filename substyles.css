@@ -1,0 +1,32 @@
+body{
+    background-color: burlywood;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+h1{
+    text-align: center;
+}
+.container{
+    width: 90%;
+    display: flex;
+    padding: 10px 40px;
+    margin-left: 2em;
+    
+}
+.row img{
+    width: 50%;
+    border-radius: 15%;
+    position: relative;
+    left: 6em;
+    top: 2em;
+}
+.row{
+    border: 1px solid black;
+    flex: 50%;
+    padding: 10px;
+    background-color: darksalmon;
+}
+li{
+    line-height: 2.5em;
+    list-style-type:circle ;
+    font-size: 17px;
+}
